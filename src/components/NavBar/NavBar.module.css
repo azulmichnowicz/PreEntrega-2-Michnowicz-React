@@ -1,0 +1,48 @@
+.navBar {
+    background-color: #ffffff;
+    color: white;
+    padding: 8px 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navButton {
+    color: black;
+    margin: 0 20px; 
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    background: none;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    color: rgb(138, 39, 77); 
+}
+
+.logo {
+    width: 300px;
+    height: auto; 
+    margin-bottom: 40px; 
+    margin-top: 10px;
+}
+
+.cartContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+
+.cartContainer:hover {
+    color: rgb(138, 39, 77); 
+    cursor: pointer;
+}
+
+.cartNumber {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+}

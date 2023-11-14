@@ -1,0 +1,61 @@
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    
+}
+
+.card {
+    border: 1px solid #beb0b08e;
+    margin-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 350px;
+}
+
+.name {
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 30px;
+}
+
+.img {
+    width: 200px;
+    height: 300px; 
+    object-fit: contain; 
+}
+
+.description {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 112, 33);
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 87, 10);
+}
+
+.price {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+}

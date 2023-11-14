@@ -1,0 +1,31 @@
+.border {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.buttonDec,
+.buttonInc {
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 112, 33);
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.buttonAdd {
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 112, 33);
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
